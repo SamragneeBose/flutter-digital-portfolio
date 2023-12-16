@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/models/project_model.dart';
 
 //Update with colors of your choice for dp background gradient
-Color kGradient1 = Colors.purple;
-Color kGradient2 = Colors.pinkAccent;
+Color kGradient1 = const Color(0xffb00b69);
+Color kGradient2 = const Color(0xff420a55);
+Color kGradient3 = const Color(0xff042069);
 
 String imagePath = "images/aditya.jpeg";
 
 //String data to modify
-String name = "Your Name";
+String name = "Samragnee Bose";
 String username = "flutterroles";
 
 //Link to resume on Google Drive
@@ -25,9 +26,13 @@ He has previously been a speaker at the Flutter Global Summit'21, Flutter Viking
 ''';
 
 String aboutMeSummary = '''
-Aditya is a content creator and has over 5K subscribers on YouTube and a 700+ member community on Discord. 
-📺 YouTube Channel: watch.adityathakur.in
-🚀 Discord Community: discord.adityathakur.in
+I'm currently a final year student at Vellore Institute of Technology pursuing my B.Tech in Computer Science and Engineering. 
+I have been in love with the subject ever since I was introduced to it during my school days! 
+
+I have a passion for creativity, and developing applications is one of the ways I fuel this passion.
+Apart from that I'm a fast learner and can quickly take to new technologies with a little bit of guidance. 
+
+Looking forward to explore new domains and technologies!!  
 ''';
 
 String location = "Dharamshala, India";

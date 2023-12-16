@@ -7,8 +7,8 @@ Color kWhite = Colors.white;
 Color kBlack = Colors.black;
 
 TextStyle kTitleText = GoogleFonts.poppins(
-  color: Colors.black,
-  fontSize: 28.0,
+  color: kWhite,
+  fontSize: 75.0,
   fontWeight: FontWeight.bold,
 );
 
