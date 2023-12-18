@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/constants/constants.dart';
 import 'package:portfolio/models/top_bar_tab.dart';
 
 class TopBarContents extends StatefulWidget {
@@ -28,7 +27,7 @@ class _TopBarContentsState extends State<TopBarContents> {
     return Container(
         color: Colors.white.withOpacity(0.5),
         child: Padding(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child:
               Expanded(
                 child: Row(

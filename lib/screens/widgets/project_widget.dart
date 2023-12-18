@@ -17,38 +17,24 @@ class ProjectWidget extends StatelessWidget {
         width: context.screenConstraint().width * 0.8,
         height: context.screenConstraint().height*0.5,
         child: Card(
-          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.build,
-                    color: kGrey,
-                    size: 18,
-                  ),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    projectData.name,
-                    style: kSectionTitleText,
-                  ),
-                ],
+          child: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+              Text(
+                projectData.name,
+                style: kProjectTitleText,
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              child: Text(
-                projectData.description,
+              const SizedBox(height: 20,),
+              SingleChildScrollView(
+                child: Text(
+                  projectData.description,
+                ),
               ),
-            ),
-            const Spacer(),
-            const Divider(),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
+              const Spacer(),
+              const Divider(),
+              Align(
+                alignment: Alignment.bottomCenter,
                 child: ElevatedButton(
                   onPressed: () async {
                     //Launch project on GitHub
@@ -57,12 +43,12 @@ class ProjectWidget extends StatelessWidget {
                   },
                   child: Text(
                     "View Project",
-                    style: kSubTitleText.copyWith(color: Colors.white),
+                    style: kSubTitleText.copyWith(color: Colors.white,),
                   ),
                 ),
               ),
-            ),
-          ]),
+            ]),
+          ),
         ),
       ),
     );

@@ -17,12 +17,18 @@ String resumeLink =
     "https://drive.google.com/file/d/1uZPqMWva6pZxzQxsR_ILLZ_FxJr24QeY/view?usp=sharing";
 
 //Contact Email
-String contactEmail = "mail@adityathakur.in";
+String contactEmail = "samragneebose@gmail.com";
 
 String aboutWorkExperience = '''
-Hello I am a freelancer
+I have worked as an Android Development Intern at Arctano Solutions Pvt. Ltd. from May 2022 to August 2022.
 
-He has previously been a speaker at the Flutter Global Summit'21, Flutter Vikings and events across colleges, universities (like VIT Chennai, Vellore, MIT-ADT), and clubs (IEEE APSIT, SFIT, GirlScript, GeeksforGeeks Student Chapter, Google CrowdSource, and more) here in India. 
+I used Flutter to develop interactive and responsive UIs as well as a common code base for Android and Web.
+I have also contributed to client applications by developing a user profile page, a GST number verifier page and a "Help & Support" page.
+''';
+
+String contactInfo='''
+Feel free to reach out to me on LinkedIn or shoot me a mail at $contactEmail.
+Don't forget to check out my GitHub as well!!
 ''';
 
 String aboutMeSummary = '''
@@ -42,22 +48,13 @@ String email = "mail@adityathakur.in";
 
 List<Project> projectList = [
   Project(
-      name: "Shades",
+      name: "Customised Password Generator",
       description:
-          "Winner IEEE Mandi 'Go Online' Challenge at Electrothon, NIT Hamirpur.",
-      link: "https://github.com/adityathakurxd/shades"),
+          '''Winner IEEE Mandi 'Go Online' Challenge at Electrothon, NIT Hamirpur.''',
+      link: "https://github.com/SamragneeBose/custom-password-generator"),
   Project(
-      name: "Fiasco",
+      name: "Job Application Project",
       description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
-  Project(
-      name: "Fiasco",
-      description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
-  Project(
-      name: "Flutter Portfolio",
-      description: "A template for Portfolio",
-      link: "https://github.com/adityathakurxd/flutter-portfolio")
+          '''Fiasco is one stop solution to help you manage Family expenses in one place!''',
+      link: "https://github.com/SamragneeBose/job-application-project"),
 ];

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/constants/constants.dart';
 import 'package:portfolio/models/menu_drawer_tab.dart';
 
 class MenuDrawer extends StatelessWidget {
@@ -12,9 +11,9 @@ class MenuDrawer extends StatelessWidget {
     return Drawer(
       child: Container(
         color: Colors.white,
-        child: Padding(
+        child: const Padding(
 
-          padding: const EdgeInsets.all(16.0),
+          padding: EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,

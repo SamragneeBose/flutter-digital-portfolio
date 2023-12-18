@@ -4,7 +4,7 @@ import '../constants/constants.dart';
 
 class MenuDrawerTab extends StatefulWidget {
   final String text;
-  MenuDrawerTab({super.key, required this.text});
+  const MenuDrawerTab({super.key, required this.text});
 
   @override
   State<MenuDrawerTab> createState() => _MenuDrawerTabState();
@@ -23,8 +23,8 @@ class _MenuDrawerTabState extends State<MenuDrawerTab> {
           ),
         ),
 
-        Padding(
-          padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+        const Padding(
+          padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
             child: Divider(
             color: Colors.black26,
             thickness: 2,
